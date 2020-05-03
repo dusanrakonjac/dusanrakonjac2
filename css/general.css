@@ -1,0 +1,50 @@
+* {
+    font-family: Arimo, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+main {
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+#header-wrapper {
+    width: 70vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: flex;
+    align-items: center;
+}
+
+#horizontal-ul {
+    margin: 0;
+    padding: 0;
+}
+
+#website-title {
+    font-size: 18px;
+    flex-basis: 40%;
+}
+
+.horizontal {
+    display:inline-block;
+    list-style: none;
+    margin-right: 24px;
+}
+
+.main-link {
+    text-transform: uppercase;
+    text-decoration: none;
+}

@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    background-image: url("./../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+    flex-grow: 1;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+}
+
+#page-title {
+    margin-top: 30%;
+    color: white;
+    text-align: center;
+}
+
+#page-subtitle {
+    color: white;
+    text-align: center;
+}
+
+#website-title {
+    color: white;
+}
+
+.main-link {
+    color: white;
+}

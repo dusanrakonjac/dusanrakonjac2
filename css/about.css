@@ -1,0 +1,88 @@
+aside {
+    order: 1;
+    flex-basis: 50%;
+    margin-right: 16px;
+}
+
+body {
+    background-color: #bbbbbb;
+}
+
+header {
+    background-color: white;
+}
+
+main {
+    margin-top: 10px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    background-color: white;
+}
+p {
+    color: #777777;
+}
+
+#glavni {
+    order: 2;
+    flex-basis: 50%;
+}
+
+#profile-info {
+    display: flex;
+}
+
+#skills-table {
+    width: 100%;
+}
+
+#website-title {
+    color: dodgerblue;
+}
+
+.bar-container {
+    display: flex;
+}
+
+.blue-bar-50 {
+    flex-basis: 50%;
+    height: 8px;
+    background-color: dodgerblue;
+}
+.blue-bar-75 {
+    flex-basis: 75%;
+    height: 8px;
+    background-color: dodgerblue;
+}
+
+.blue-bar-90 {
+    flex-basis: 90%;
+    height: 8px;
+    background-color: dodgerblue;
+}
+
+.grey-bar-10 {
+    flex-basis: 10%;
+    height: 8px;
+    background-color: lightgrey;
+}
+.grey-bar-25 {
+    flex-basis: 25%;
+    height: 8px;
+    background-color: lightgrey;
+}
+.grey-bar-50 {
+    flex-basis: 50%;
+    height: 8px;
+    background-color: lightgrey;
+}
+
+.grey-text {
+    color: #555555;
+}
+
+.main-link {
+    color: dodgerblue;
+}

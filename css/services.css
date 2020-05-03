@@ -1,0 +1,64 @@
+body {
+    background-color: #bbbbbb;
+}
+
+header {
+    background-color: white;
+}
+
+main {
+    margin-top: 10px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+p {
+    color: #777777;
+}
+
+
+#glavni {
+    order: 2;
+    flex-basis: 50%;
+}
+
+#website-title {
+    color: dodgerblue;
+}
+
+.box-container {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.box {
+    flex-basis: 33%;
+    margin-right: 16px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid dodgerblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    font-size: 50px;
+}
+
+.main-link {
+    color: dodgerblue;
+}
+
